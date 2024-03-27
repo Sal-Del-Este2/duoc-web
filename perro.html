@@ -5,8 +5,11 @@
             display: inline-block;
             vertical-align: top;
         }
-        img.izquierda {
-            float: left;
+        .contenedor {
+            margin: 10px 200px 10px 200px; /* margen de imagen */
+        }
+        .contenedor-text {
+            margin: 10px 50px 10px 50px; /* margen de texto */
         }
     </style>
 <head>
@@ -16,12 +19,13 @@
 </head>
 <body>
     <div>
+        <div dir="rtl">
+            <a href="index.html">Volver a inicio</a>
+        </div>
         <center>
-            <h1 style="margin: 150px">PERROS EN ADOPCION</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, inventore. Culpa, rerum neque. Necessitatibus quod velit vitae unde sed? Expedita consequuntur ea quis reiciendis nobis distinctio quod deserunt doloremque in.
-
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, inventore. Culpa, rerum neque. Necessitatibus quod velit vitae unde sed? Expedita consequuntur ea quis reiciendis nobis distinctio quod deserunt doloremque in.
+            <h1 style="margin: 150px">PERROS EN ADOPCIÓN</h1>
+            <p class="contenedor-text" style="text-align: left;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
         </center>
     </div>
@@ -29,19 +33,19 @@
         <center>
             <h2>Nuestros perros que buscan familia:</h2></center>
     </div>
-    <div>
-        <img src="imagen\perro_1.png">
-        <p id="texto1"><a href="perro1.html" target="_blank">Cachulo</a></p>
+    <div class="contenedor">
+        <img src="imagen\perro_1.png" width="200">
+        <p id="texto1" class="contenedor-text"><a href="perro1.html">Cachulo</a></p>
     </div>
     <br>
-    <div>
-        <img src="imagen\perro_2.png">
-        <p id="texto1"><a href="perro2.html" target="_blank">Niña</a></p>
+    <div class="contenedor">
+        <img src="imagen\perro_2.png" width="200">
+        <p id="texto1" class="contenedor-text"><a href="perro2.html">Niña</a></p>
     </div>
     <br>
-    <div>
-        <img src="imagen\perro_3.png">
-        <p id="texto1"><a href="perro3.html" target="_blank">Flaca</a></p>
+    <div class="contenedor">
+        <img src="imagen\perro_3.png" width="200">
+        <p id="texto1" class="contenedor-text"><a href="perro3.html">Flaca</a></p>
     </div>
 </body>
 </html>

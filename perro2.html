@@ -5,8 +5,11 @@
             display: inline-block;
             vertical-align: top;
         }
-        img.izquierda {
-            float: left;
+        .contenedor {
+            margin: 10px 200px 10px 200px; /* margen de imagen */
+        }
+        .contenedor-text {
+            margin: 10px 50px 10px 50px; /* margen de texto */
         }
     </style>
 <head>
@@ -15,9 +18,13 @@
     <title>perro2</title>
 </head>
 <body>
-    <div>
-        <img src="imagen\perro_2.png">
-        <p id="texto1">Nombre: Cachulo<br>Edad: 4 Años<br>Genero:Macho<br>Esterilizado: Si<br>Nro. chip: 3333333333 </a></p>
+    <div dir="rtl">
+        <a href="perro.html">Volver a perros</a>
+    </div>
+    <div class="contenedor">
+        <br>
+        <img src="imagen\perro_2.png" width="300">
+        <p id="texto1" class="contenedor-text">Nombre: Cachulo<br>Edad: 4 Años<br>Genero:Macho<br>Esterilizado: Si<br>Nro. chip: 3333333333 </a></p>
     </div>
 </body>
 </html>

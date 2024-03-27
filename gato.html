@@ -5,8 +5,11 @@
             display: inline-block;
             vertical-align: top;
         }
-        img.izquierda {
-            float: left;
+        .contenedor {
+            margin: 10px 200px 10px 200px; /* margen de imagen */
+        }
+        .contenedor-text {
+            margin: 10px 50px 10px 50px; /* margen de texto */
         }
     </style>
 <head>
@@ -15,6 +18,34 @@
     <title>gato</title>
 </head>
 <body>
-    
+    <div>
+        <div dir="rtl">
+            <a href="index.html">Volver a inicio</a>
+         </div>
+        <center>
+            <h1 style="margin: 150px">GATOS EN ADOPCIÓN</h1>
+            <p class="contenedor-text" style="text-align: left;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </center>
+    </div>
+    <div>
+        <center>
+            <h2>Nuestros Gatos que buscan familia:</h2></center>
+    </div>
+    <div class="contenedor">
+        <img src="imagen\gato_1.png" width="200">
+        <p id="texto1" class="contenedor-text"><a href="gato1.html">Cachulo</a></p>
+    </div>
+    <br>
+    <div class="contenedor">
+        <img src="imagen\gato_2.png" width="200">
+        <p id="texto1" class="contenedor-text"><a href="gato2.html">Niña</a></p>
+    </div>
+    <br>
+    <div class="contenedor">
+        <img src="imagen\gato_3.png" width="200">
+        <p id="texto1" class="contenedor-text"><a href="gato3.html">Flaca</a></p>
+    </div>
 </body>
 </html>
